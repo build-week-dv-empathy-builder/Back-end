@@ -34,7 +34,7 @@ describe('data model', () => {
       await insert(sampleData)
 
       const data = await getAll()
-  
+
       expect(data).toHaveLength(2)
     })
   })
@@ -158,7 +158,7 @@ const sampleDBData= {
     children: "yes",
     personal_savings: 1000,
     individual_income: 500,
-    
+
     //personal budget
     transportation: 50,
     food: 200,
@@ -168,7 +168,7 @@ const sampleDBData= {
     personal_loans: 0,
     personal_other: 200,
     personal_budget_total: 450,
-    
+
     //relocation budget
     travel_costs: 50,
     rental_deposit: 500,
@@ -183,7 +183,7 @@ const sampleDBData= {
     additional_security: 100,
     relocation_other: 200,
     relocation_budget_total: 2000,
-    
+
     //calculated results
     calculated_difference: 1450,
     }
