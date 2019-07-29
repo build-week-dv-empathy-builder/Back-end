@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors')
 
-const logger = require('../api/functions/logger.js')
+const logger = require('../api/middleware/logger.js')
 const authRouter = require('../api/routes/authRoute.js')
 const restrictedRouter = require('../api/routes/restrictedRoute.js')
 

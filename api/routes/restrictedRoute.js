@@ -2,7 +2,7 @@ const express = require('express')
 const Data = require('../models/dataModel.js')
 
 const router = express.Router()
-const restrictedMiddleware = require('../functions/restrictedMiddleware.js')
+const restrictedMiddleware = require('../middleware/restrictedMiddleware.js')
 
 router.get('/data', restrictedMiddleware, async (req, res) => {
     try {

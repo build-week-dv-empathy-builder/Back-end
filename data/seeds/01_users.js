@@ -1,4 +1,4 @@
-const generatePassword = require('../../api/functions/generatePassword');
+const generatePassword = require('../../api/middleware/generatePassword');
 
 exports.seed = function(knex, Promise) {
     // Deletes ALL existing entries
